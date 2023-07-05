@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Hosting;
-
-namespace ritweek.solution.webapi;
+﻿namespace ritweek.solution.webapi;
 
 public class Program
 {

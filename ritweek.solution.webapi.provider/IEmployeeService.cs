@@ -1,5 +1,4 @@
-﻿using System;
-using ritweek.solution.webapi.common.Model;
+﻿using ritweek.solution.webapi.common.Model;
 
 namespace ritweek.solution.webapi.provider
 {
