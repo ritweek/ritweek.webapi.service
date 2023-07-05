@@ -32,13 +32,13 @@ Follow the instructions below to get started with the project on your local mach
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/employee-management-api.git
+   git clone https://github.com/ritweek/ritweek.webapi.service.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd employee-management-api
+   cd ritweek.webapi.service
    ```
 
 3. Build the project:
