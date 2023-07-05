@@ -1,0 +1,12 @@
+/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.common/bin/Debug/net6.0/ritweek.solution.webapi.common.deps.json
+/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.common/bin/Debug/net6.0/ritweek.solution.webapi.common.dll
+/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.common/bin/Debug/net6.0/ritweek.solution.webapi.common.pdb
+/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.common/obj/Debug/net6.0/ritweek.solution.webapi.common.csproj.AssemblyReference.cache
+/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.common/obj/Debug/net6.0/ritweek.solution.webapi.common.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.common/obj/Debug/net6.0/ritweek.solution.webapi.common.AssemblyInfoInputs.cache
+/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.common/obj/Debug/net6.0/ritweek.solution.webapi.common.AssemblyInfo.cs
+/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.common/obj/Debug/net6.0/ritweek.solution.webapi.common.csproj.CoreCompileInputs.cache
+/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.common/obj/Debug/net6.0/ritweek.solution.webapi.common.dll
+/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.common/obj/Debug/net6.0/refint/ritweek.solution.webapi.common.dll
+/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.common/obj/Debug/net6.0/ritweek.solution.webapi.common.pdb
+/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.common/obj/Debug/net6.0/ref/ritweek.solution.webapi.common.dll

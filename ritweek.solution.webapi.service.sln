@@ -5,6 +5,14 @@ VisualStudioVersion = 25.0.1706.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ritweek.solution.webapi", "ritweek.solution.webapi\ritweek.solution.webapi.csproj", "{08E0814B-779A-4DCA-B069-6060BD48D2A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ritweek.solution.webapi.common", "ritweek.solution.webapi.common\ritweek.solution.webapi.common.csproj", "{D2ACDAAE-89A2-4151-B6E4-7A51701A166E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ritweek.solution.webapi.db", "ritweek.solution.webapi.db\ritweek.solution.webapi.db.csproj", "{393811C2-3776-4B4C-9266-487557F9F571}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ritweek.solution.webapi.provider", "ritweek.solution.webapi.provider\ritweek.solution.webapi.provider.csproj", "{97F6F27C-ADC8-4105-A330-FDC97267A39B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ritweek.solution.webapi.test", "ritweek.solution.webapi.test\ritweek.solution.webapi.test.csproj", "{CEB76AFA-1E09-4962-9137-10EA130F525E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{08E0814B-779A-4DCA-B069-6060BD48D2A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08E0814B-779A-4DCA-B069-6060BD48D2A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08E0814B-779A-4DCA-B069-6060BD48D2A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2ACDAAE-89A2-4151-B6E4-7A51701A166E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2ACDAAE-89A2-4151-B6E4-7A51701A166E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2ACDAAE-89A2-4151-B6E4-7A51701A166E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2ACDAAE-89A2-4151-B6E4-7A51701A166E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{393811C2-3776-4B4C-9266-487557F9F571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{393811C2-3776-4B4C-9266-487557F9F571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{393811C2-3776-4B4C-9266-487557F9F571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{393811C2-3776-4B4C-9266-487557F9F571}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97F6F27C-ADC8-4105-A330-FDC97267A39B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97F6F27C-ADC8-4105-A330-FDC97267A39B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97F6F27C-ADC8-4105-A330-FDC97267A39B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97F6F27C-ADC8-4105-A330-FDC97267A39B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEB76AFA-1E09-4962-9137-10EA130F525E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEB76AFA-1E09-4962-9137-10EA130F525E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEB76AFA-1E09-4962-9137-10EA130F525E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEB76AFA-1E09-4962-9137-10EA130F525E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
