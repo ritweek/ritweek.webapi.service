@@ -4,14 +4,14 @@
     "/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.test/ritweek.solution.webapi.test.csproj": {}
   },
   "projects": {
-    "/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.test/ritweek.solution.webapi.test.csproj": {
+    "/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.common/ritweek.solution.webapi.common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.test/ritweek.solution.webapi.test.csproj",
-        "projectName": "ritweek.solution.webapi.test",
-        "projectPath": "/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.test/ritweek.solution.webapi.test.csproj",
+        "projectUniqueName": "/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.common/ritweek.solution.webapi.common.csproj",
+        "projectName": "ritweek.solution.webapi.common",
+        "projectPath": "/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.common/ritweek.solution.webapi.common.csproj",
         "packagesPath": "/Users/ritweekranjan/.nuget/packages/",
-        "outputPath": "/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.test/obj/",
+        "outputPath": "/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.common/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -40,10 +40,209 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.db/ritweek.solution.webapi.db.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.db/ritweek.solution.webapi.db.csproj",
+        "projectName": "ritweek.solution.webapi.db",
+        "projectPath": "/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.db/ritweek.solution.webapi.db.csproj",
+        "packagesPath": "/Users/ritweekranjan/.nuget/packages/",
+        "outputPath": "/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.db/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/ritweekranjan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.common/ritweek.solution.webapi.common.csproj": {
+                "projectPath": "/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.common/ritweek.solution.webapi.common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.provider/ritweek.solution.webapi.provider.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.provider/ritweek.solution.webapi.provider.csproj",
+        "projectName": "ritweek.solution.webapi.provider",
+        "projectPath": "/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.provider/ritweek.solution.webapi.provider.csproj",
+        "packagesPath": "/Users/ritweekranjan/.nuget/packages/",
+        "outputPath": "/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.provider/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/ritweekranjan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.common/ritweek.solution.webapi.common.csproj": {
+                "projectPath": "/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.common/ritweek.solution.webapi.common.csproj"
+              },
+              "/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.db/ritweek.solution.webapi.db.csproj": {
+                "projectPath": "/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.db/ritweek.solution.webapi.db.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.test/ritweek.solution.webapi.test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.test/ritweek.solution.webapi.test.csproj",
+        "projectName": "ritweek.solution.webapi.test",
+        "projectPath": "/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.test/ritweek.solution.webapi.test.csproj",
+        "packagesPath": "/Users/ritweekranjan/.nuget/packages/",
+        "outputPath": "/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.test/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/ritweekranjan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.common/ritweek.solution.webapi.common.csproj": {
+                "projectPath": "/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.common/ritweek.solution.webapi.common.csproj"
+              },
+              "/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.db/ritweek.solution.webapi.db.csproj": {
+                "projectPath": "/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.db/ritweek.solution.webapi.db.csproj"
+              },
+              "/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.provider/ritweek.solution.webapi.provider.csproj": {
+                "projectPath": "/Users/ritweekranjan/Projects/ritweek.solution.webapi.service/ritweek.solution.webapi.provider/ritweek.solution.webapi.provider.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.1.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.4, )"
             },
             "NUnit": {
               "target": "Package",

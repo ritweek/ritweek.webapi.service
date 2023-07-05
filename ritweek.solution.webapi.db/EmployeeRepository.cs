@@ -1,9 +1,11 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
 using Microsoft.EntityFrameworkCore;
 using ritweek.solution.webapi.common.Model;
 
 namespace ritweek.solution.webapi.db
 {
+    [ExcludeFromCodeCoverage]
     public class EmployeeRepository : IEmployeeRepository
     {
         private readonly EmployeeDbContext _dbContext;

@@ -1,8 +1,10 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.Diagnostics.CodeAnalysis;
 
 namespace ritweek.solution.webapi.common.Model
 {
+    [ExcludeFromCodeCoverage]
     public class Employee
     {
         [Key]

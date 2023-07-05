@@ -1,6 +1,9 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
+
 namespace ritweek.solution.webapi.common.Model
 {
+    [ExcludeFromCodeCoverage]
     public class CustomResponse
     {
         public string Title { get; set; }

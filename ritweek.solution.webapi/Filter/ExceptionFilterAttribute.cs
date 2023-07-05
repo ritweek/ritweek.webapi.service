@@ -2,9 +2,11 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using System.Net;
+using System.Diagnostics.CodeAnalysis;
 
 namespace ritweek.solution.webapi.Filter
 {
+    [ExcludeFromCodeCoverage]
     public class ExceptionFilterAttribute : IExceptionFilter
     {
         public void OnException(ExceptionContext context)
