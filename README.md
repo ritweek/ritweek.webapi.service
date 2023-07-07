@@ -11,6 +11,7 @@ This is a .NET Core Web API project for managing employee data. The API allows y
 - Get a specific employee by ID
 - Update an existing employee
 - Delete an employee
+- Search
 
 ## Technologies Used
 
@@ -18,6 +19,18 @@ This is a .NET Core Web API project for managing employee data. The API allows y
 - Entity Framework Core
 - In-memory Database
 - Swagger (API documentation)
+
+### Logging
+
+The Employee Management API uses logging to record important events and error information. It uses the logging framework provided by ASP.NET Core.
+
+The API logs errors and other relevant information using the ILogger interface. The logs are written to the configured logging provider, such as the console, file, or a third-party logging service.
+
+By default, the API logs errors to the console output in the development environment. In a production environment, you can configure the logging to use other providers, such as a file or a logging service like Azure Application Insights.
+
+To enable additional logging or modify the logging behavior, you can update the logging configuration in the `appsettings.json` file or use a different logging provider.
+
+
 
 ## Getting Started
 
