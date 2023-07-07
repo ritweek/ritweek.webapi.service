@@ -76,6 +76,9 @@ The API documentation is available through Swagger. You can access it by navigat
 
 You can use tools like Postman or cURL to interact with the API endpoints. Refer to the API documentation for detailed information on each endpoint and their request/response formats.
 
+### Screen
+    ![Alt text](/relative/path/to/SwaggerPage.png?raw=true "Optional Title")
+
 ## Contributing
 
 Contributions are welcome! If you find any issues or want to add new features, please submit a pull request. Make sure to follow the existing coding style and conventions.
