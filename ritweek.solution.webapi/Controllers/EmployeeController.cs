@@ -134,6 +134,29 @@ namespace ritweek.solution.webapi.Controllers
             return Ok(response);
         }
 
+        /// <summary>
+        /// Searches employees by first or last name.
+        /// </summary>
+        /// <param name="searchTerm">The search term.</param>
+        /// <returns>A custom response with matching employees.</returns>
+        [HttpGet("search")]
+        public async Task<IActionResult> SearchEmployees(string searchTerm)
+        {
+            if (string.IsNullOrWhiteSpace(searchTerm))
+            {
+                return BadRequest(new CustomResponse { Title = "No Records Found", StatusCode = 400, Message = "Search term is required." });
+            }
+
+            var matchingEmployees = await _employeeService.SearchEmployeesAsync(searchTerm).ConfigureAwait(false);
+
+            if (!matchingEmployees.Any())
+            {
+                return NotFound(new CustomResponse { Title = "No Records Found", StatusCode = 404, Message = "No employees found matching the search criteria." });
+            }
+
+            return Ok(new EmployeeResponse<List<Employee>> { Title = "Success", StatusCode = 200, Message = "Employees found.", Data = (List<Employee>)matchingEmployees });
+        }
+
     }
 
 }

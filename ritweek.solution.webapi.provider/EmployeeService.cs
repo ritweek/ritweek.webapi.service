@@ -97,6 +97,19 @@ namespace ritweek.solution.webapi.provider
                 throw;
             }
         }
+
+        public async Task<IEnumerable<Employee>> SearchEmployeesAsync(string searchTerm)
+        {
+            try
+            {
+                return await _employeeRepository.SearchEmployeesAsync(searchTerm).ConfigureAwait(false);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "An error occurred while searching employees.");
+                throw;
+            }
+        }
     }
 }
 

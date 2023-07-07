@@ -11,6 +11,8 @@ namespace ritweek.solution.webapi.db
         Task<Employee> AddEmployeeAsync(Employee employee);
         Task UpdateEmployeeAsync(Employee employee);
         Task DeleteEmployeeAsync(int employeeId);
+        Task<IEnumerable<Employee>> SearchEmployeesAsync(string searchTerm);
+
     }
 }
 

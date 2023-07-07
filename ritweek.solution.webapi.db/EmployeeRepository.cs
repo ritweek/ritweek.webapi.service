@@ -99,6 +99,21 @@ namespace ritweek.solution.webapi.db
                 throw new Exception("Error occurred while deleting an employee.", ex);
             }
         }
+
+        public async Task<IEnumerable<Employee>> SearchEmployeesAsync(string searchTerm)
+        {
+            try
+            {
+                return await _dbContext.Employees
+                    .Where(e => e.FirstName.ToUpperInvariant().Contains(searchTerm.ToUpperInvariant()) || e.LastName.ToUpperInvariant().Contains(searchTerm.ToUpperInvariant()))
+                    .ToListAsync();
+            }
+            catch (Exception ex)
+            {
+                // Handle or log the exception
+                throw new Exception("An error occurred while searching employees.", ex);
+            }
+        }
     }
 }
 
